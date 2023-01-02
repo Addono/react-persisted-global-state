@@ -4,6 +4,8 @@
 
 Simple React hook for global state which is persisted to Local Storage.
 
+This allows sharing state between multiple components or different instance of the same component, all while the changes are persisted to the browser's Local Storage.
+
 ## Installing
 
 Install all dependencies and peer-dependencies:
@@ -21,7 +23,7 @@ import { createPersistedGlobalState } from 'react-persisted-global-state';
 
 // Register a re-usable instance of our global state store
 const useMyPersistedGlobalState = createPersistedGlobalState<string>(
-  'my-key',
+  'my-localstorage-key',
   'Hello, world!'
 );
 
