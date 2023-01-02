@@ -17,6 +17,8 @@ yarn add react-persisted-global-state use-hooks
 ## Usage
 
 ```tsx
+import { createPersistedGlobalState } from 'react-persisted-global-state';
+
 // Register a re-usable instance of our global state store
 const useMyPersistedGlobalState = createPersistedGlobalState<string>(
   'my-key',
