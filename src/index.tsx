@@ -1,1 +1,1 @@
-export { createPersistedGlobalState } from "./createPersistedGlobalState"
+export { createPersistedGlobalState } from './createPersistedGlobalState';
