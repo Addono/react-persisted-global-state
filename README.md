@@ -21,8 +21,10 @@ This allows sharing state between multiple components or different instance of t
 Install all dependencies and peer-dependencies:
 
 ```bash
-npm install react-persisted-global-state use-hooks
+# For users of npm
+npm install --save react-persisted-global-state use-hooks
 
+# For users of Yarn
 yarn add react-persisted-global-state use-hooks
 ```
 
