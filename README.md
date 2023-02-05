@@ -22,10 +22,10 @@ Install all dependencies and peer-dependencies:
 
 ```bash
 # For users of npm
-npm install --save react-persisted-global-state use-hooks
+npm install --save react-persisted-global-state react-use
 
 # For users of Yarn
-yarn add react-persisted-global-state use-hooks
+yarn add react-persisted-global-state react-use
 ```
 
 ## Usage
