@@ -18,7 +18,7 @@ This allows sharing state between multiple components or different instance of t
 
 ## Installing
 
-Install all dependencies and peer-dependencies:
+Install `react-persisted-global-state` and its peer-dependencies:
 
 ```bash
 # For users of npm
