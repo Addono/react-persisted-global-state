@@ -48,6 +48,14 @@ const MyComponent = () => {
 };
 ```
 
+## Releasing
+
+We use [`release-it`](https://github.com/release-it/release-it) to automate our creating releases for this application. You can invoke it by running:
+
+```bash
+yarn release
+```
+
 ## ✨ Contributors <a name = "contributors"></a>
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
