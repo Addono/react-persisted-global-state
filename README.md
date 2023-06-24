@@ -50,7 +50,7 @@ const MyComponent = () => {
 
 ## Releasing
 
-We use [`release-it`](https://github.com/release-it/release-it) to automate our creating releases for this application. You can invoke it by running:
+We use [`release-it`](https://github.com/release-it/release-it) to automate our creating releases for this application. A new release can be rolled out by running:
 
 ```bash
 yarn release
