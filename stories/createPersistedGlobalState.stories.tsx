@@ -8,10 +8,10 @@ const useMyPersistedGlobalState = createPersistedGlobalState<string>(
 );
 
 const MyComponent = () => {
-  const [state, setState, _] = useMyPersistedGlobalState();
+  const [state, setState, clearState] = useMyPersistedGlobalState();
 
   return (
-    <input type="text" value={state} onChange={e => setState(e.target.value)} />
+    <input type="text" value={state} onChange={e => setState(e.target.value)} onDoubleClick={clearState}/>
   );
 };
 
@@ -23,6 +23,11 @@ export const Example = () => {
 
       <p>And this second component:</p>
       <MyComponent />
+
+      <i>
+        <p>Try changing the state in one component and see it update in the other.</p>
+        <p>Double-clicking will clear the state.</p>
+      </i>
     </div>
   );
 };
