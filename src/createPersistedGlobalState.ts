@@ -24,7 +24,7 @@ import { createGlobalState, useLocalStorage } from 'react-use';
  */
 export const createPersistedGlobalState = <S extends unknown>(
   key: string,
-  initialState: S
+  initialState: Readonly<S>
 ): (() => readonly [S, (state: S) => void, () => void]) => {
   const useGlobalState = createGlobalState<S>(initialState);
 
@@ -45,7 +45,7 @@ export const createPersistedGlobalState = <S extends unknown>(
       setLocalStorageState(state);
     };
     const removeState: () => void = () => {
-      setGlobalState(initialState);
+      setState(initialState);
       removeLocalStorageState();
     };
 
