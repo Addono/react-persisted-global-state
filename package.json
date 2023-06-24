@@ -1,7 +1,7 @@
 {
   "name": "react-persisted-global-state",
   "description": "Simple React hook for global, local storage persisted state.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "keywords": [
     "react",
