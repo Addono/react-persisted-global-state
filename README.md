@@ -40,10 +40,10 @@ const useMyPersistedGlobalState = createPersistedGlobalState<string>(
 );
 
 const MyComponent = () => {
-  const [state, setState, _] = useMyPersistedGlobalState();
+  const [state, setState, removeState] = useMyPersistedGlobalState();
 
   return (
-    <input type="text" value={state} onChange={e => setState(e.target.value)} />
+    <input type="text" value={state} onChange={e => setState(e.target.value)} onClear />
   );
 };
 ```
