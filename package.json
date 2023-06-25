@@ -80,7 +80,7 @@
     "react-is": "^18.2.0",
     "react-use": "^17.4.0",
     "release-it": "^15.11.0",
-    "size-limit": "^8.2.4",
+    "size-limit": "^8.2.6",
     "storybook": "^7.0.23",
     "tsdx": "^0.14.1",
     "tslib": "^2.5.3",
