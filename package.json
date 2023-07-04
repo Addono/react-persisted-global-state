@@ -70,7 +70,7 @@
     "@storybook/addon-links": "^7.0.23",
     "@storybook/addons": "^7.0.23",
     "@storybook/react": "^7.0.23",
-    "@storybook/react-webpack5": "^7.0.24",
+    "@storybook/react-webpack5": "^7.0.25",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
     "babel-loader": "^9.1.2",
