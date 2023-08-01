@@ -68,7 +68,7 @@
     "@storybook/addon-essentials": "^7.0.23",
     "@storybook/addon-info": "^5.3.21",
     "@storybook/addon-links": "^7.1.1",
-    "@storybook/addons": "^7.0.23",
+    "@storybook/addons": "^7.2.0",
     "@storybook/react": "^7.0.23",
     "@storybook/react-webpack5": "^7.1.1",
     "@types/react": "^18.2.18",
