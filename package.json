@@ -79,7 +79,7 @@
     "react-dom": "^18.2.0",
     "react-is": "^18.2.0",
     "react-use": "^17.4.0",
-    "release-it": "^16.2.0",
+    "release-it": "^16.2.1",
     "size-limit": "^8.2.6",
     "storybook": "^7.1.1",
     "tsdx": "^0.14.1",
