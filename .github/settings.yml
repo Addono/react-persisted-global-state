@@ -5,7 +5,7 @@ repository:
   name: react-persisted-global-state
 
   # A short description of the repository that will show up on GitHub
-  description: Simple React hook for global, local storage persisted state
+  description: A simple React hook for global, cross-tab, and local storage persisted state
 
   # A URL with more information about the repository
   homepage: https://www.npmjs.com/package/react-persisted-global-state
