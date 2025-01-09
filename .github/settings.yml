@@ -9,7 +9,7 @@ repository:
 
   # A URL with more information about the repository
   homepage: https://www.npmjs.com/package/react-persisted-global-state
-📦
+
   # A comma-separated list of topics to set on the repository
   topics: react, hooks, state, global, persist, local-storage, github-actions, npm
 
