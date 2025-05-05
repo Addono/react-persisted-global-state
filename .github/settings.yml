@@ -52,3 +52,8 @@ labels:
 
   - name: Bug
     color: b60205
+
+  - name: dependencies
+
+  - name: yarn
+  
