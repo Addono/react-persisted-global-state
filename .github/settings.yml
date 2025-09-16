@@ -56,4 +56,5 @@ labels:
   - name: dependencies
 
   - name: yarn
-  
+
+  - name: GitHub Actions
