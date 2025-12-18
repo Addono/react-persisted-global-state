@@ -2782,15 +2782,15 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/builder-manager@7.6.13":
-  version "7.6.13"
-  resolved "https://registry.yarnpkg.com/@storybook/builder-manager/-/builder-manager-7.6.13.tgz#75d9e999810476e7422b532b79e26412876d8bda"
-  integrity sha512-RsZO7W33fYD5QKr//6DQ2+H0tdOt6BJ9I7U+3k5C8qCCoIW1CwYz/qbX+IB403k1yKKyw+Xau3F3tCVxR3j9Bw==
+"@storybook/builder-manager@7.6.21":
+  version "7.6.21"
+  resolved "https://registry.yarnpkg.com/@storybook/builder-manager/-/builder-manager-7.6.21.tgz#13a76fa3312f2a1afe1f62a25e2f3d7c3d6fa1a3"
+  integrity sha512-j6N/OiwUGHzvDSpWKlrjuR8Fp3unEAhowgtKpc8fV3Qw0xi5lEmJc4yu0R5cIGkOsSoA5Oe6nLGhjRjvddioQA==
   dependencies:
     "@fal-works/esbuild-plugin-global-externals" "^2.1.2"
-    "@storybook/core-common" "7.6.13"
-    "@storybook/manager" "7.6.13"
-    "@storybook/node-logger" "7.6.13"
+    "@storybook/core-common" "7.6.21"
+    "@storybook/manager" "7.6.21"
+    "@storybook/node-logger" "7.6.21"
     "@types/ejs" "^3.1.1"
     "@types/find-cache-dir" "^3.2.1"
     "@yarnpkg/esbuild-plugin-pnp" "^3.0.0-rc.10"
@@ -2911,18 +2911,6 @@
     telejson "^7.2.0"
     tiny-invariant "^1.3.1"
 
-"@storybook/channels@7.6.13":
-  version "7.6.13"
-  resolved "https://registry.yarnpkg.com/@storybook/channels/-/channels-7.6.13.tgz#4d60407ecab0cfb99184fc230fec237d1df019c2"
-  integrity sha512-AiplFJXPjgHA62xqZFq7SwCS+o8bFrYLPM9I8yNY+8jhAi9N3Yig+h2P0jOXxLKicwrCXa5ZJ7PZK05M1r6YqA==
-  dependencies:
-    "@storybook/client-logger" "7.6.13"
-    "@storybook/core-events" "7.6.13"
-    "@storybook/global" "^5.0.0"
-    qs "^6.10.0"
-    telejson "^7.2.0"
-    tiny-invariant "^1.3.1"
-
 "@storybook/channels@7.6.17":
   version "7.6.17"
   resolved "https://registry.yarnpkg.com/@storybook/channels/-/channels-7.6.17.tgz#5be1d1222a3ffdc90e1868230c2b2ee5dfc7a97f"
@@ -2935,23 +2923,35 @@
     telejson "^7.2.0"
     tiny-invariant "^1.3.1"
 
-"@storybook/cli@7.6.13":
-  version "7.6.13"
-  resolved "https://registry.yarnpkg.com/@storybook/cli/-/cli-7.6.13.tgz#3fa2761adb7522b119f83f76286ddc79d7a519f2"
-  integrity sha512-9JBFckdWeJKU1xV3G3+L/kjuwNZm2RAUxac4GgVBxXACF0QU0nXml8Ss5ZA5nss+qCnn/gdRYRDNdfJ28L0/mw==
+"@storybook/channels@7.6.21":
+  version "7.6.21"
+  resolved "https://registry.yarnpkg.com/@storybook/channels/-/channels-7.6.21.tgz#882e2be537e147d40411460463940645a4394c2a"
+  integrity sha512-899XbW60IXIkWDo90bS5ovjxnFUDgD8B2ZwUEJUmuhIXqQeSg2iJ8uYI699Csei+DoDn5gZYJD+BHbSUuc4g+Q==
+  dependencies:
+    "@storybook/client-logger" "7.6.21"
+    "@storybook/core-events" "7.6.21"
+    "@storybook/global" "^5.0.0"
+    qs "^6.10.0"
+    telejson "^7.2.0"
+    tiny-invariant "^1.3.1"
+
+"@storybook/cli@7.6.21":
+  version "7.6.21"
+  resolved "https://registry.yarnpkg.com/@storybook/cli/-/cli-7.6.21.tgz#bcd2bc231325a3d523672150e87f61d8b0be08c5"
+  integrity sha512-8SCDEeoBm+RAQDiH4HOjsQFJhReI7EJRylXVtllVhmq6TpxyJNZz8CSWEIU0zFhznIHktevriVzRR/qAKdUXng==
   dependencies:
     "@babel/core" "^7.23.2"
     "@babel/preset-env" "^7.23.2"
     "@babel/types" "^7.23.0"
     "@ndelangen/get-tarball" "^3.0.7"
-    "@storybook/codemod" "7.6.13"
-    "@storybook/core-common" "7.6.13"
-    "@storybook/core-events" "7.6.13"
-    "@storybook/core-server" "7.6.13"
-    "@storybook/csf-tools" "7.6.13"
-    "@storybook/node-logger" "7.6.13"
-    "@storybook/telemetry" "7.6.13"
-    "@storybook/types" "7.6.13"
+    "@storybook/codemod" "7.6.21"
+    "@storybook/core-common" "7.6.21"
+    "@storybook/core-events" "7.6.21"
+    "@storybook/core-server" "7.6.21"
+    "@storybook/csf-tools" "7.6.21"
+    "@storybook/node-logger" "7.6.21"
+    "@storybook/telemetry" "7.6.21"
+    "@storybook/types" "7.6.21"
     "@types/semver" "^7.3.4"
     "@yarnpkg/fslib" "2.10.3"
     "@yarnpkg/libzip" "2.3.0"
@@ -3017,13 +3017,6 @@
   dependencies:
     "@storybook/global" "^5.0.0"
 
-"@storybook/client-logger@7.6.13":
-  version "7.6.13"
-  resolved "https://registry.yarnpkg.com/@storybook/client-logger/-/client-logger-7.6.13.tgz#bcba58e9a7ad706ca7309d50854a09ec04687f34"
-  integrity sha512-uo51MsUG1Fbi1IA+me9tewF1mFiaYuyR0IMeBmaU3Z3CtjEUdOekmvRQ9ckoFn+BbKtxSipTodiR4HmIZDta3g==
-  dependencies:
-    "@storybook/global" "^5.0.0"
-
 "@storybook/client-logger@7.6.17":
   version "7.6.17"
   resolved "https://registry.yarnpkg.com/@storybook/client-logger/-/client-logger-7.6.17.tgz#5031c47b7df8d8792fe9dfed5828222f515e5803"
@@ -3031,18 +3024,25 @@
   dependencies:
     "@storybook/global" "^5.0.0"
 
-"@storybook/codemod@7.6.13":
-  version "7.6.13"
-  resolved "https://registry.yarnpkg.com/@storybook/codemod/-/codemod-7.6.13.tgz#97cfdaa3b0bfa71db85bf1eaa05e22f20eef13b7"
-  integrity sha512-QjjVAxT/NnCN4hJ5TLf2wQtddfwn9r0yaFMxLb3gGsjW/ZVzmp4xOS5KeqUUXXbb1wjYWv56Egamkrs/qoUTyA==
+"@storybook/client-logger@7.6.21":
+  version "7.6.21"
+  resolved "https://registry.yarnpkg.com/@storybook/client-logger/-/client-logger-7.6.21.tgz#96d53fdbb3d9df203e0e98bb46b07b260c292137"
+  integrity sha512-NWh32K+N6htmmPfqSPOlA6gy80vFQZLnusK8+/7Hp0sSG//OV5ahlnlSveLUOub2e97CU5EvYUL1xNmSuqk2jQ==
+  dependencies:
+    "@storybook/global" "^5.0.0"
+
+"@storybook/codemod@7.6.21":
+  version "7.6.21"
+  resolved "https://registry.yarnpkg.com/@storybook/codemod/-/codemod-7.6.21.tgz#48257a0771b2f4b80b5f61a47b2b8dc7a613e77b"
+  integrity sha512-AFkOB+2vSRXbjUdTI5rsvL8YdqVcmKgmJB3QgwbmLp804Qhqn/WcbOkPOT6zqdcgDTLGaFUIFigvjc7cly3fkw==
   dependencies:
     "@babel/core" "^7.23.2"
     "@babel/preset-env" "^7.23.2"
     "@babel/types" "^7.23.0"
     "@storybook/csf" "^0.1.2"
-    "@storybook/csf-tools" "7.6.13"
-    "@storybook/node-logger" "7.6.13"
-    "@storybook/types" "7.6.13"
+    "@storybook/csf-tools" "7.6.21"
+    "@storybook/node-logger" "7.6.21"
+    "@storybook/types" "7.6.21"
     "@types/cross-spawn" "^6.0.2"
     cross-spawn "^7.0.3"
     globby "^11.0.2"
@@ -3172,14 +3172,14 @@
     resolve-from "^5.0.0"
     ts-dedent "^2.0.0"
 
-"@storybook/core-common@7.6.13":
-  version "7.6.13"
-  resolved "https://registry.yarnpkg.com/@storybook/core-common/-/core-common-7.6.13.tgz#46b47cce8f563a4542e9d5a9128733bc2229469d"
-  integrity sha512-kCCVDga/66wIWFSluT3acD3/JT3vwV7A9rxG8FZF5K38quU/b37sRXvCw8Yk5HJ4rQhrB76cxVhIOy/ZucaZVw==
+"@storybook/core-common@7.6.21":
+  version "7.6.21"
+  resolved "https://registry.yarnpkg.com/@storybook/core-common/-/core-common-7.6.21.tgz#b1a83afa17e39b5b66917ba18f7b23e0b31248dd"
+  integrity sha512-3xeEAsEwPIEdnWiFJcxD3ObRrF7Vy1q/TKIExbk6p8Flx+XPXQKRZd/T+m5/8/zLYevasvY6hdVN91Fhcw9S2Q==
   dependencies:
-    "@storybook/core-events" "7.6.13"
-    "@storybook/node-logger" "7.6.13"
-    "@storybook/types" "7.6.13"
+    "@storybook/core-events" "7.6.21"
+    "@storybook/node-logger" "7.6.21"
+    "@storybook/types" "7.6.21"
     "@types/find-cache-dir" "^3.2.1"
     "@types/node" "^18.0.0"
     "@types/node-fetch" "^2.6.4"
@@ -3225,13 +3225,6 @@
   dependencies:
     ts-dedent "^2.0.0"
 
-"@storybook/core-events@7.6.13":
-  version "7.6.13"
-  resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-7.6.13.tgz#772834ebf72f1fda339d7152566f051ac38394b9"
-  integrity sha512-hsL6JT273b1RcJBGHpNNLJ1ilzFMT4UCJwwtOpNNQVPBJt0Hn22vxC69/hpqSINrhHRLj3ak8CTtA0ynVjngaQ==
-  dependencies:
-    ts-dedent "^2.0.0"
-
 "@storybook/core-events@7.6.17":
   version "7.6.17"
   resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-7.6.17.tgz#9e1a795558193089fb227cfe2cf768c99418a640"
@@ -3239,26 +3232,33 @@
   dependencies:
     ts-dedent "^2.0.0"
 
-"@storybook/core-server@7.6.13":
-  version "7.6.13"
-  resolved "https://registry.yarnpkg.com/@storybook/core-server/-/core-server-7.6.13.tgz#66116d3c8cd5965e40a246f0eabc4313ec29781a"
-  integrity sha512-kcHhCL8XDv4k5QJqBVWOYJ2lwX6orQHnx0N7fvLhJ7IHtUp1YQYn1+ufnGFZBlpNGGvPwz3oX4hmOT1G+PQdlw==
+"@storybook/core-events@7.6.21":
+  version "7.6.21"
+  resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-7.6.21.tgz#801fe0369ecaeee3518344feb6fb47deee2c79a6"
+  integrity sha512-Ez6bhYuXbEkHVCmnNB/oqN0sQwphsmtPmjYdPMlTtEpVEIXHAw2qOlaDiGakoDHkgrTaxiYvdJrPH0UcEJcWDQ==
+  dependencies:
+    ts-dedent "^2.0.0"
+
+"@storybook/core-server@7.6.21":
+  version "7.6.21"
+  resolved "https://registry.yarnpkg.com/@storybook/core-server/-/core-server-7.6.21.tgz#c521ed971345b7344a7a41365989d0338c1b09aa"
+  integrity sha512-1Z92JjUumCFrLNJY7ZNH9bRXyNggtFvfrhVsHjIxvOJcXvI9cfXJQtN1Pcx2Gc7tQNLQfHp6CifmDCmAw3sbXA==
   dependencies:
     "@aw-web-design/x-default-browser" "1.4.126"
     "@discoveryjs/json-ext" "^0.5.3"
-    "@storybook/builder-manager" "7.6.13"
-    "@storybook/channels" "7.6.13"
-    "@storybook/core-common" "7.6.13"
-    "@storybook/core-events" "7.6.13"
+    "@storybook/builder-manager" "7.6.21"
+    "@storybook/channels" "7.6.21"
+    "@storybook/core-common" "7.6.21"
+    "@storybook/core-events" "7.6.21"
     "@storybook/csf" "^0.1.2"
-    "@storybook/csf-tools" "7.6.13"
+    "@storybook/csf-tools" "7.6.21"
     "@storybook/docs-mdx" "^0.1.0"
     "@storybook/global" "^5.0.0"
-    "@storybook/manager" "7.6.13"
-    "@storybook/node-logger" "7.6.13"
-    "@storybook/preview-api" "7.6.13"
-    "@storybook/telemetry" "7.6.13"
-    "@storybook/types" "7.6.13"
+    "@storybook/manager" "7.6.21"
+    "@storybook/node-logger" "7.6.21"
+    "@storybook/preview-api" "7.6.21"
+    "@storybook/telemetry" "7.6.21"
+    "@storybook/types" "7.6.21"
     "@types/detect-port" "^1.3.0"
     "@types/node" "^18.0.0"
     "@types/pretty-hrtime" "^1.0.0"
@@ -3271,7 +3271,6 @@
     express "^4.17.3"
     fs-extra "^11.1.0"
     globby "^11.0.2"
-    ip "^2.0.0"
     lodash "^4.17.21"
     open "^8.4.0"
     pretty-hrtime "^1.0.3"
@@ -3320,17 +3319,17 @@
     recast "^0.23.1"
     ts-dedent "^2.0.0"
 
-"@storybook/csf-tools@7.6.13":
-  version "7.6.13"
-  resolved "https://registry.yarnpkg.com/@storybook/csf-tools/-/csf-tools-7.6.13.tgz#c7a59063d6151b44760183d283e2996cf9d24e95"
-  integrity sha512-N0erD3fhbZIDkQpcHlNTLvkpWVVtpiOjY3JO8B5SdBT2uQ8T7aXx7IEM3Q8g1f/BpfjkM15rZl9r4HFtm5E43Q==
+"@storybook/csf-tools@7.6.21":
+  version "7.6.21"
+  resolved "https://registry.yarnpkg.com/@storybook/csf-tools/-/csf-tools-7.6.21.tgz#44cf46d6ce8d7c6113346885183471f86337fd51"
+  integrity sha512-DBdwDo4nOsXF/QV6Ru08xgb54M1o9A0E7D8VW0+PcFK+Y8naq8+I47PkijHloTxgZxUyX8OvboaLBMTGUV275w==
   dependencies:
     "@babel/generator" "^7.23.0"
     "@babel/parser" "^7.23.0"
     "@babel/traverse" "^7.23.2"
     "@babel/types" "^7.23.0"
     "@storybook/csf" "^0.1.2"
-    "@storybook/types" "7.6.13"
+    "@storybook/types" "7.6.21"
     fs-extra "^11.1.0"
     recast "^0.23.1"
     ts-dedent "^2.0.0"
@@ -3467,10 +3466,10 @@
     telejson "^7.2.0"
     ts-dedent "^2.0.0"
 
-"@storybook/manager@7.6.13":
-  version "7.6.13"
-  resolved "https://registry.yarnpkg.com/@storybook/manager/-/manager-7.6.13.tgz#1793fc3c562984c8dbe7ade1ec3314a5675705d0"
-  integrity sha512-f/Qecur8pXSncdmll7dYyP8EZ+IzzReIN8eZF/NHKULfnBkIkRxf+w4LlXBgOwgU36DdsW+VH0OuGMWeeqTUwA==
+"@storybook/manager@7.6.21":
+  version "7.6.21"
+  resolved "https://registry.yarnpkg.com/@storybook/manager/-/manager-7.6.21.tgz#8692bf57a8c65f3b25935963b433165f81cc6d07"
+  integrity sha512-kwtG7HfxYQIZeGwDg7xFkORhNf0PH+4jRLf/9M6amR537Hctay+Vlv2MGHO6LFzw6IwT4qCtO8xNgzcV9TxZtg==
 
 "@storybook/mdx2-csf@^1.0.0":
   version "1.1.0"
@@ -3492,10 +3491,10 @@
   resolved "https://registry.yarnpkg.com/@storybook/node-logger/-/node-logger-7.4.5.tgz#910581defe4063395c50b1d43f6bb8ea6a945e4d"
   integrity sha512-fJSykphbryuEYj1qihbaTH5oOzD4NkptRxyf2uyBrpgkr5tCTq9d7GHheqaBuIdi513dsjlcIR7z5iHxW7ZD+Q==
 
-"@storybook/node-logger@7.6.13":
-  version "7.6.13"
-  resolved "https://registry.yarnpkg.com/@storybook/node-logger/-/node-logger-7.6.13.tgz#bab8256bafa7f54be7d2465db8a72d5f73cec679"
-  integrity sha512-Ci/2Gd0+Qd3fX6GWGS1UAa/bTl0uALsEuMuzOO0meKEPEEYZvBFCoeK6lP1ysMnxWxKaDjxNr01JlTpmjfT6ag==
+"@storybook/node-logger@7.6.21":
+  version "7.6.21"
+  resolved "https://registry.yarnpkg.com/@storybook/node-logger/-/node-logger-7.6.21.tgz#a70e829c54c119f37f5a4f9d3660c2f4f1510fbd"
+  integrity sha512-X4LwhWQ0KuLU7O2aEi7U9hhg+klnuvkXqhXIqAQCZEKogUxz7ywek+2h+7QqdgHFi6V7VYNtiMmMJKllzhg+OA==
 
 "@storybook/postinstall@7.0.23":
   version "7.0.23"
@@ -3586,26 +3585,6 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/preview-api@7.6.13":
-  version "7.6.13"
-  resolved "https://registry.yarnpkg.com/@storybook/preview-api/-/preview-api-7.6.13.tgz#ace76ab343ef01328d8244264749913345979d6f"
-  integrity sha512-BbRlVpxgOXSe4/hpf9cRtbvvCJoRrFbjMCnmaDh+krd8O4wLbVknKhqgSR46qLyW/VGud9Rb3upakz7tNP+mtg==
-  dependencies:
-    "@storybook/channels" "7.6.13"
-    "@storybook/client-logger" "7.6.13"
-    "@storybook/core-events" "7.6.13"
-    "@storybook/csf" "^0.1.2"
-    "@storybook/global" "^5.0.0"
-    "@storybook/types" "7.6.13"
-    "@types/qs" "^6.9.5"
-    dequal "^2.0.2"
-    lodash "^4.17.21"
-    memoizerific "^1.11.3"
-    qs "^6.10.0"
-    synchronous-promise "^2.0.15"
-    ts-dedent "^2.0.0"
-    util-deprecate "^1.0.2"
-
 "@storybook/preview-api@7.6.17":
   version "7.6.17"
   resolved "https://registry.yarnpkg.com/@storybook/preview-api/-/preview-api-7.6.17.tgz#03dd399bf3bb8ac6f4aad3c738365b86b8790157"
@@ -3617,6 +3596,26 @@
     "@storybook/csf" "^0.1.2"
     "@storybook/global" "^5.0.0"
     "@storybook/types" "7.6.17"
+    "@types/qs" "^6.9.5"
+    dequal "^2.0.2"
+    lodash "^4.17.21"
+    memoizerific "^1.11.3"
+    qs "^6.10.0"
+    synchronous-promise "^2.0.15"
+    ts-dedent "^2.0.0"
+    util-deprecate "^1.0.2"
+
+"@storybook/preview-api@7.6.21":
+  version "7.6.21"
+  resolved "https://registry.yarnpkg.com/@storybook/preview-api/-/preview-api-7.6.21.tgz#eb90a17752a37fddadfe4c58a697731bb601a376"
+  integrity sha512-L5e6VjphfsnJk/kkOIRJzDaTfX5sNpiusocqEbHKTM7c9ZDAuaLPZKluP87AJ0u16UdWMuCu6YaQ6eAakDa9gg==
+  dependencies:
+    "@storybook/channels" "7.6.21"
+    "@storybook/client-logger" "7.6.21"
+    "@storybook/core-events" "7.6.21"
+    "@storybook/csf" "^0.1.2"
+    "@storybook/global" "^5.0.0"
+    "@storybook/types" "7.6.21"
     "@types/qs" "^6.9.5"
     dequal "^2.0.2"
     lodash "^4.17.21"
@@ -3750,14 +3749,14 @@
     "@storybook/client-logger" "7.4.5"
     "@storybook/preview-api" "7.4.5"
 
-"@storybook/telemetry@7.6.13":
-  version "7.6.13"
-  resolved "https://registry.yarnpkg.com/@storybook/telemetry/-/telemetry-7.6.13.tgz#88f24a900497c20267484b51dc7be214e1fc0ac9"
-  integrity sha512-G23QTpCd3W83NISTFSFjq5SyePRaQUin7F9KnafJM54cMDya7xi7aPUrlVRc5zi2Gfr8PJ8tTna1C4k3cIrHFw==
+"@storybook/telemetry@7.6.21":
+  version "7.6.21"
+  resolved "https://registry.yarnpkg.com/@storybook/telemetry/-/telemetry-7.6.21.tgz#f28dd3173ce04c3372c806079391dc6ee2cd3bc0"
+  integrity sha512-bE68Ac6daL0JE9vjtHKwsM+uSXZ94QdoZL9RCTVvp0dI7htm7s7w7+Arm/aCxG9lnYTAjioWNRpHfeALVjsjIg==
   dependencies:
-    "@storybook/client-logger" "7.6.13"
-    "@storybook/core-common" "7.6.13"
-    "@storybook/csf-tools" "7.6.13"
+    "@storybook/client-logger" "7.6.21"
+    "@storybook/core-common" "7.6.21"
+    "@storybook/csf-tools" "7.6.21"
     chalk "^4.1.0"
     detect-package-manager "^2.0.1"
     fetch-retry "^5.0.2"
@@ -3852,22 +3851,22 @@
     "@types/express" "^4.7.0"
     file-system-cache "2.3.0"
 
-"@storybook/types@7.6.13":
-  version "7.6.13"
-  resolved "https://registry.yarnpkg.com/@storybook/types/-/types-7.6.13.tgz#4d957ac6ddb2213b90525b28b8548749899c2f18"
-  integrity sha512-N8HfqhL5uaI69BZx+xLkKi1YIgDp34XeL3uhxii4NfThcY1KJA643Gqk3oLKefiBqBpIRGKN0nA41Fhdvhr7Hw==
-  dependencies:
-    "@storybook/channels" "7.6.13"
-    "@types/babel__core" "^7.0.0"
-    "@types/express" "^4.7.0"
-    file-system-cache "2.3.0"
-
 "@storybook/types@7.6.17":
   version "7.6.17"
   resolved "https://registry.yarnpkg.com/@storybook/types/-/types-7.6.17.tgz#0b3c27cb1708c0545a9ea1a23b73aa8852dd47c4"
   integrity sha512-GRY0xEJQ0PrL7DY2qCNUdIfUOE0Gsue6N+GBJw9ku1IUDFLJRDOF+4Dx2BvYcVCPI5XPqdWKlEyZdMdKjiQN7Q==
   dependencies:
     "@storybook/channels" "7.6.17"
+    "@types/babel__core" "^7.0.0"
+    "@types/express" "^4.7.0"
+    file-system-cache "2.3.0"
+
+"@storybook/types@7.6.21":
+  version "7.6.21"
+  resolved "https://registry.yarnpkg.com/@storybook/types/-/types-7.6.21.tgz#b8815c6701fd286e85be9b89e1e31b7a9fd75876"
+  integrity sha512-rJaBMxzXZOsJpqZGhebFJxOguZQBw5j+MVpqbFBA6vLZPx9wEbDBeVsPUxCxj+V1XkVcrNXf9qfThyJ8ETmLBw==
+  dependencies:
+    "@storybook/channels" "7.6.21"
     "@types/babel__core" "^7.0.0"
     "@types/express" "^4.7.0"
     file-system-cache "2.3.0"
@@ -13145,12 +13144,12 @@ store2@^2.14.2, store2@^2.7.1:
   resolved "https://registry.yarnpkg.com/store2/-/store2-2.14.4.tgz#81b313abaddade4dcd7570c5cc0e3264a8f7a242"
   integrity sha512-srTItn1GOvyvOycgxjAnPA63FZNwy0PTyUBFMHRM+hVFltAeoh0LmNBz9SZqUS9mMqGk8rfyWyXn3GH5ReJ8Zw==
 
-storybook@^7.6.13:
-  version "7.6.13"
-  resolved "https://registry.yarnpkg.com/storybook/-/storybook-7.6.13.tgz#f11b92c6e8cd2b846b03aefaed1d81ecbe20664d"
-  integrity sha512-c06c27f1m9OeXUtyA0/pwVLWJo+OD9SDIaTcPtojtwt5QEtSKfhQN+b9fnq/+GXRAHdkPF13AqR0uCXJZ/9Xtw==
+storybook@^7.6.21:
+  version "7.6.21"
+  resolved "https://registry.yarnpkg.com/storybook/-/storybook-7.6.21.tgz#0856e00cbbeb5d6ec16cb413cd6aa4398fac114d"
+  integrity sha512-zmicrWNy5GbrO7hZwVp6uZ6m93VWULePkhYB300jAer7Z+CH4yso/nNcyRO00rnD4zizJLy2MXeUJvydh7rOaw==
   dependencies:
-    "@storybook/cli" "7.6.13"
+    "@storybook/cli" "7.6.21"
 
 stream-shift@^1.0.0:
   version "1.0.1"
